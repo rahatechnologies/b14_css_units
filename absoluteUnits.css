@@ -1,0 +1,30 @@
+/* Pixels - absolute values, one dot in the screen 
+   font-size - size of the font
+   width - width of the element
+   height - height of the element
+*/
+
+
+h1{
+    font-size: 60px;
+    background: blue;
+    color: #fff;
+
+/* 
+    HEX  -  0 to f
+    0 1 2 3 4 5 6 7 8 9 a b c d e f
+
+    R     G      B
+
+    00     00     00
+    ff     ff     ff
+
+    #000 Black
+    #fff white */
+
+  width: 800px;
+  height: 400px;
+
+
+}
+

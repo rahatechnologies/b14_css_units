@@ -1,0 +1,28 @@
+/* em - Relative, depends on  parent*/
+
+/* 1em  - 16px default browser style 
+
+1em = base value(16px) * number(1) = 16px
+2em = base value(16px) * number(2) = 32px
+2em = base value(10px) * number(2) = 20px
+
+*/
+
+
+body{
+font-size: 64px;
+}
+
+
+.relative_em_parent{
+    font-size: 10px ;
+}
+
+.relative_em {
+    font-size: 2em;
+}
+
+.absolute_px{
+    font-size: 32px;
+}
+

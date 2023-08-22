@@ -1,0 +1,35 @@
+/* 
+percentage units -  
+1.  % - percent.
+2.  Relative Unit / value. 
+3.  
+
+*/
+
+
+.parent_div{
+
+    background: green;
+    width: 800px;
+    height:  800px;
+}
+
+.outer {
+ background: blue;
+ /* width: 50%;
+ height: 50%; */
+
+width: 700px;
+height: 500px;
+
+}
+
+
+.inner{
+    background: red;
+    width: 50%;
+    height: 67% ;
+/* 
+    width: 400px;
+    height: 400px; */
+}
