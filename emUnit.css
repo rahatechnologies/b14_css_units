@@ -1,4 +1,4 @@
-/* em - Relative, depends on  parent*/
+/* em - Relative, depends on  immediate parent*/
 
 /* 1em  - 16px default browser style 
 
@@ -7,7 +7,9 @@
 2em = base value(10px) * number(2) = 20px
 
 */
-
+html{
+font-size: 64px; 
+}
 
 body{
 font-size: 64px;
@@ -15,9 +17,9 @@ font-size: 64px;
 
 
 .relative_em_parent{
-    font-size: 10px ;
+    font-size: 16px ;
+    color: blue;
 }
-
 .relative_em {
     font-size: 2em;
 }

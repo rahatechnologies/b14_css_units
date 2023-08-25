@@ -1,0 +1,36 @@
+/* rem - Relative, depends on root*/
+
+/* 1rem  - 16px default browser style 
+
+1rem = base value(16px) * number(1) = 16px
+2rem = base value(16px) * number(2) = 32px
+2rem = base value(10px) * number(2) = 20px
+
+*/
+html {
+    /* font-size: 32px; */
+}
+
+body {
+    font-size: 64px;
+}
+
+
+.relative_em_parent {
+    font-size: 16px;
+    color: blue;
+}
+
+.relative_em {
+    /* value 16px * 2 = 32px */
+    font-size: 2em;
+}
+
+.relative_rem {
+    /* value 64px * 2 = 128px */
+    font-size: 2rem; 
+}
+
+.absolute_px {
+    font-size: 32px;
+}
