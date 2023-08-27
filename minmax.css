@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background: blue;
+    height: 6rem;
+    color: white;
+    font-size: 3rem;
+}
+
+.banner{
+    background: red;
+    /* min-height: calc(100vh - 16rem); */
+    max-height: 100vh;
+    font-weight: bold;
+        font-size: 1.3rem;
+        overflow: scroll;
+}
+.example{
+    background: green;
+    width: 10rem;
+    height: 20rem;
+    font-weight: bold;
+    font-size: 1.3rem;
+    overflow: hidden;
+    /* overflow-x:hidden ;
+    overflow-y: hidden; */
+}
