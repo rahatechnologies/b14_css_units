@@ -1,42 +1,36 @@
-/* 
-rem - RELATIVE, depends on root
-1rem = base value (16px) * number(1) = 16px
+/* rem - Relative, depends on root*/
 
+/* 1rem  - 16px default browser style 
 
+1rem = base value(16px) * number(1) = 16px
+2rem = base value(16px) * number(2) = 32px
+2rem = base value(10px) * number(2) = 20px
 
-em - RELATIVE, depends on parent
-
-1em - 16px default browser style
-1em = base value (16px) * number(1) = 16px
-2em=base value (16px) * number(2)= 32px
-2em=base value (10px) * number(2)= 20px
 */
+html {
+    /* font-size: 32px; */
+}
 
-/* :root {
-    --base-font-size: 10px;
-} */
-
-html{
-    /* root element */
-    /* font-size: 10px; */
+body {
+    font-size: 64px;
 }
 
 
-
-/* immediate parent */
-div {
-    /*  changing base value for em */
-    /* font-size: var(--base-font-size); */
-    font-size: 5px;
-}
-
-.absolute {
-    font-size: 32px;
+.relative_em_parent {
+    font-size: 16px;
+    color: blue;
 }
 
 .relative_em {
+    /* value 16px * 2 = 32px */
     font-size: 2em;
 }
+
 .relative_rem {
-    font-size: 2rem;
+    /* value 64px * 2 = 128px */
+    font-size: 2rem; 
+}
+
+.absolute_px {
+    font-size: 32px;
 }

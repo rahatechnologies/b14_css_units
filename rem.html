@@ -7,16 +7,21 @@
     <link rel="stylesheet" href="rem.css" />
   </head>
   <body>
-    <div>
-      <h3 class="relative_rem">Heading (in rem depends on root)</h3>
+    <div class="parent1">
+      <ul>
+        <li>list1</li>
+        <li>list2</li>
+        <li>list3</li>
+      </ul>
+      <div class="parent2">
+        <div class="relative_em_parent">
+          <h3 class="relative_em">Heading in em units</h3>
+
+          <h3 class="relative_rem">Heading in rem units</h3>
+        </div>
+      </div>
     </div>
 
-    <div>
-      <h3 class="relative_em">Heading (in em depends on immediate parent)</h3>
-    </div>
-
-    <div>
-      <h3 class="absolute">Heading (in px)</h3>
-    </div>
+    <h3 class="absolute_px">Heading in px units</h3>
   </body>
 </html>

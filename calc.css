@@ -1,0 +1,30 @@
+/* root pseudo selector */
+:root{
+    /* css variables */
+   --navbar-height: 6rem;
+   --viewport-height: 100vh;
+   --primary-background-color: #e1dada;
+}
+
+/* universal selector */
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: var(--navbar-height);
+    background: blue;
+    color: white;
+    font-size: 3rem;
+}
+
+.banner{
+    /* height: 87.7vh; */
+    height: calc(var(--viewport-height) - var(--navbar-height));
+    background: red;
+}
+
+
+

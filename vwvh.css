@@ -1,8 +1,14 @@
 /* Viewport Units 
- vh- viewport height - percent  of the screen height
- vw- viewport width - percent  of the screen width
+ vh- viewport height - percent  of the viewport screen height
+ vw- viewport width - percent  of the viewport screen width
 
 */
+
+/* universal selector */
+
+
+
+
 
 *{
     margin: 0;
